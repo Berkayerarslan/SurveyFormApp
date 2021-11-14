@@ -38,7 +38,7 @@ namespace SurveyFormApp.Models
             {
                 throw new Exception("Girilen soru adedindeb fazla giremezsiniz");
             }
-            
+
         }
         public void AddSurveyTime(DateTime surveyTime)
         {
@@ -46,6 +46,11 @@ namespace SurveyFormApp.Models
             {
                 this.SurveyTime = surveyTime;
             }
+        }
+        public void AddDescription(string description)
+        {
+            this.Description = description;
+
         }
     }
 }
