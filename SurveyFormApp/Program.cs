@@ -6,7 +6,7 @@ namespace SurveyFormApp
 {
     class Program
     {
-        private static object shortQuestion;
+        
 
         static void Main(string[] args)
         {

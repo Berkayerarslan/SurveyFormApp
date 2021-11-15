@@ -22,7 +22,7 @@ namespace SurveyFormApp.Abstracts
         public void AddAnswer(bool answer)
         {
           
-            if (Answers.Count < 1 && Answers.Count == 2)
+            if (Answers.Count < 1 && Choices.Count == 2)
             {
                 if (answer == Yes || answer == No)
                 {
