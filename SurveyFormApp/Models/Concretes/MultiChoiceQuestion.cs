@@ -29,7 +29,7 @@ namespace SurveyFormApp.Abstracts
                 bool a = Choices.Any(x => x == answer);
                 if (a)
                 {
-                    answers.Add(answer);
+                    Answers.Add(answer);
                 }
                 else
                 {
